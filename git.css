@@ -1,0 +1,25 @@
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse; 
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+
+
+.styled-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  color: #4169E1
+  text-align: center;
+}
+
+
+.styled-table th {
+  background-color: #4169E1;
+  color: white;
+  text-align: center;
+}
+
+
