@@ -4,16 +4,107 @@
   <meta charset="UTF-8">
   <title>Tableau séparé CSS/HTML</title>
   <link rel="stylesheet" href="git.css">
-</head>
+
 <body>
   <table class="styled-table">
    
-    <thead>
+    
       <tr>
         <th>description </th>
         <td>commanede </td>
       </tr>
-    </thead>
+    
+    
+      <tr>
+      <td>$ git branch</td>
+    <td>Liste toutes les branches locales dans le dépôt courant</td>
+  </tr>
+  <tr>
+    <td>$ git branch [nom-de-branche]</td>
+    <td>Crée une nouvelle branche</td>
+  </tr>
+  <tr>
+      <td>$ git checkout [nom-de-branche]</td>
+    <td>Bascule sur la branche spécifiée et met à jour le répertoire de travail</td>
+  </tr>
+  <tr>
+    <td>$ git merge [nom-de-branche]</td>
+    <td>Combine dans la branche courante l'historique de la branche spécifiée</td>
+  </tr>
+  <tr>
+      <td>$ git branch -d [nom-de-branche]</td>
+    <td>Supprime la branche spécifiée</td>
+  </tr>
+  <tr>
+    <th>CONFIGURATION DES OUTILS</th>
+        <th>Configurer les informations de l'utilisateur pour tous les dépôts locaux</th>
+    </tr>
+  <tr>
+    <td>$ git config --global user.name"[nom]"</td>
+    <td>Définit l'email que vous voulez associer à toutes vos opérations de commit</td>
+  </tr>
+  <tr>
+      <td>$ git config --global user.email "[adresse email]"</td>
+    <td>Définit l'email que vous voulez associer à toutes vos opérations de commit</td>
+  </tr>
+  <tr>
+    <td>$ git config --global color.ui auto</td>
+    <td>Active la colorisation de la sortie en ligne de commande</td>
+  </tr>
+  <tr>
+    <th>CRÉER DES DÉPÔTS</th>
+        <th>Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante</th>
+    </tr>
+  <tr>
+      <td>$ git init [nom-du-projet]</td>
+    <td>Crée un dépôt local à partir du nom spécifié</td>
+  </tr>
+  <tr>
+    <td>$ git clone [url]</td>
+    <td>Télécharge un projet et tout son historique de versions</td>
+  </tr>
+  <tr>
+    <th>VÉRIFIER L'HISTORIQUE DES VERSIONS</th>
+        <th>Suivre et inspecter l'évolution des fichiers du projet</th>
+    </tr>
+  <tr>
+      <td>$ git log</td>
+    <td>Montre l'historique des versions pour la branche courante</td>
+  </tr>
+  <tr>
+    <td>$ git log --follow [fichier]</td>
+    <td>Montre l'historique des versions, y compris les actions de renommage, pour le fichier spécifié</td>
+  </tr>
+  <tr>
+      <td>$ git diff [premiere-branche]...[deuxieme-branche]</td>
+    <td>Montre les différences de contenu entre deux branches</td>
+  </tr>
+  <tr>
+    <td>$ git show [commit]</td>
+    <td>Montre les modifications de métadonnées et de contenu inclues dansle commit spécifié</td>
+  </tr>
+   <tr>
+    <th>REFAIRE DES COMMITS</th>
+        <th>Corriger des erreurs et gérer l'historique des corrections</th>
+    </tr>
+  <tr>
+  <tr>
+      <td>$ git reset [commit]</td>
+    <td>Annule tous les commits après [commit], en conservant lesmodifications localement</td>
+  </tr>
+  <tr>
+    <td>$ git reset --hard [commit]</td>
+    <td>Supprime tout l'historique et les modifications effectuées après lecommit spécifié</td>
+  </tr>
+  <tr>
+    <th>SYNCHRONISER LES CHANGEMENTS</th>
+        <th>Référencer un dépôt distant et synchroniser l'historique de versions</th>
+    </tr>
+  <tr>
+      <td>$ git fetch [nom-de-depot]</td>
+    <td>Récupère tout l'historique du dépôt nommé</td>
+  </tr>
+  
     
       
    

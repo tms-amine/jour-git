@@ -11,13 +11,13 @@
 .styled-table td {
   border: 1px solid #ccc;
   padding: 8px;
-  color: #4169E1
+  color: #fefeff
   text-align: center;
 }
 
 
 .styled-table th {
-  background-color: #4169E1;
+  background-color: #fdfdfd;
   color: white;
   text-align: center;
 }
